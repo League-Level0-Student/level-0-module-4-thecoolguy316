@@ -19,7 +19,12 @@ System.out.println(G.length());
 		//    HINT: use .length() to determine how many loops
 for (int i = 0; i < G.length(); i++) {
 System.out.println(G.charAt(i));
-}		
+if(G.charAt(i)=='K') {
+	System.out.println(i);
+}
+}	
+
+}
 		// 5. Pick a char inside your String, and use a loop to determine
 		//    what position/index in the String the char is located.
 		//    Print the char's position to the console.
@@ -27,6 +32,6 @@ System.out.println(G.charAt(i));
 		//             for char 'b', then print "b is at index 1"
 		
 	}
-}
+
 
 
